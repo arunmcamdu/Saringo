@@ -1,15 +1,19 @@
 .top{
 	background: $highlight-text;
-    color: #333;
+    color: #fff;
     padding: 7px 0;
     font-size: 13px;
 	span {
 	    margin-right: 10px;
+	    a{
+	    	color: #fff;
+	    }
 	}
 	i.fa {
 	    font-size: 18px;
 	    margin-right: 4px;
 	    line-height: 1.2;
+	    color: #fff;
 	}
 	.container{
 		padding: 0;
@@ -27,7 +31,7 @@
 			div{
 				height: auto;
 				padding: 0 0 0 30px;
-				color: #333;				
+				color: #fff;				
     		padding-top: 2px;
     		&:hover, &:focus{
     			text-decoration: underline;
@@ -41,7 +45,7 @@
 				top:0;
 				font-size: 26px;
     		line-height: 20px;		
-    		color: #333;	    		
+    		color: #fff;	    		
     		background-color: transparent;
 		    cursor: pointer;
 			}
@@ -49,7 +53,7 @@
 	}
 }
 #logo-outer{
-	background-color: #000;
+	background-color: #062766;
 	top: -150px;
 	transition: all 0.3s ease;
 	&.fixed-header{
@@ -86,6 +90,9 @@
 			.navbar-nav > li >a{
 				color: #000;
 				padding: 0 10px;
+				&:hover, &:focus{
+					color: #fff;
+				}
 			}
 			.navbar-collapse .menu-main-menu-container{
 				height: auto;
@@ -128,12 +135,14 @@
 	.navbar-collapse{
 		padding: 5px 0;
 	}
+	
 	.navbar-nav{
 		margin: 0;
 		>li{
 			>a{		
 				color: #fff;
 				text-transform: uppercase;
+				transition: all 0.3s ease;
 				&:hover, &:focus{
 					background-color: $highlight-text;
 				}

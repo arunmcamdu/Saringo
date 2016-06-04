@@ -23,7 +23,10 @@
 				>a{
 					padding: 15px 10px;
 					line-height: 40px;
-					text-align: center;		
+					text-align: center;	
+					&:hover, &:focus{
+						color: #fff;
+					}	
 				}
 			}
 		}
@@ -44,6 +47,11 @@
 			}
 		}
 	}
+	.detail-content{
+		.col-sm-3{
+			padding-right: 0;
+		}
+	}
 	.carousel-caption{
 		right: 0;
 		left: 0;
@@ -57,18 +65,61 @@
 	
 }
 @media (max-width:767px){
-
+	.top{
+		padding: 0;
+		.top-left{
+			padding: 10px 15px;
+		}
+	}
+	#logo-outer{
+		.navbar-default .navbar-nav > li > a{
+			&:hover, &:focus{
+				color: #fff;
+			}
+		}
+		&.fixed-header{
+			.navbar-default .navbar-nav > li > a{
+				padding: 10px 15px;			
+			}
+			.search-outer{
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			.navbar-toggle{
+				margin: 0;
+		    border-color: #000;
+	    	margin-top: 3px;
+		    .icon-bar{
+		   		background-color: #000;
+		    }
+			}
+		}
+	}
+	.quick-link{
+		display: none;
+	}
+	.search-outer{
+		padding: 10px 15px;
+	}
 	.menu-outer{
 		padding: 0;
 	}
 	.navbar-toggle{
-	    position: absolute;
-	    right: 0;
-	    top: -56px;
-	    margin: 0;
+	  border-color: #fff;
+	  margin-right: 0;
+    margin-top: 19px;
+	  .icon-bar{
+	   	background-color: #fff;
+	  }
 	}
 	.copyright{
 		text-align: center;
+	}
+	footer{
+		padding: 20px 10px;
+		h3{
+			margin: 10px 0;
+		}
 	}
 }
 @media (max-width: 359px){

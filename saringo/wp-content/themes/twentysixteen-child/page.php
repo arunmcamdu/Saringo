@@ -23,22 +23,7 @@ get_header(); ?>
 				  <div class="main-outer">
 				  	<!-- get_template_part( 'home-banner' ) -->
 						<?php get_template_part( 'homepage' ); ?>
-				  	<?php
-							// Start the loop.
-							while ( have_posts() ) : the_post();
-							?>				
-							<section class="content-box welcome-box"><!--Start Box-->
-								<div class="container">
-				  				<?php
-										the_content();
-									?>
-								</div>
-							</section>
-
-							<?php
-								// End of the loop.
-							endwhile;
-							?>
+				  	
 				</div>
 			</main>
 		</div>

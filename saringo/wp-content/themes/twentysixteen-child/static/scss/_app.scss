@@ -51,7 +51,7 @@
 	    color: #fff;
 	    min-height: 470px;
 	    padding-top: 100px;
-	    background: url(../images/AB0A9709-10.jpg) no-repeat;
+	    background: #062766;
 	    text-align: center;
 	}
 	&.team-box{
@@ -75,19 +75,20 @@
 	    }
 	}
 	.sub-title{
-		background: #CB0001;
+		background: #3575D3;
 	    display: inline-block;
 	    margin-bottom: 20px;
-	    padding: 10px;
+	    padding: 5px 10px;
 	    h2{
 	    	color: #fff;
-    		font-size: 20px;
-    		line-height: 25px;
+    		font-size: 18px;
+    		line-height: 24px;
     		margin: 0;
     		i{
-			    font-size: 28px;
+			    font-size: 20px;
 			    margin-right: 10px;
 			    font-weight: bold;
+    			line-height: 24px;
     		}
 	    }
 	}
@@ -192,6 +193,17 @@
 						}
 					}
 				}
+				//google news api
+				.j{
+					div{
+						display: none;
+						&.lh{
+							display: block;
+					    padding-left: 20px;
+    					margin-top: -25px;
+						}
+					}
+				}
 	    }
 	    .item-container{
 		    vertical-align: middle;
@@ -290,11 +302,27 @@
 	color: #fff;
 	padding: 5px 10px;
 	text-align: center;
+	transition: all 0.3s ease;
 	&:hover, &:focus{
-		color: #000;
+		background-color: #062766;
+		color: #fff;
+		text-decoration: none;
 	}
 }
 
+.thirukural{
+	.item{
+		.item-content{
+			padding-right: 10px;
+			padding-left: 10px;
+			h3{
+				font-size: 14px;
+				line-height: 1.2;
+				font-weight: bold;
+			}
+		}
+	}
+}
 
 //search results
 
@@ -326,5 +354,25 @@
 		p{
 			margin-top: 0;
 		}
+	}
+}
+
+
+//Post 
+.post-outer{
+	margin-bottom: 20px;
+	.post-thumbnail{
+		float: left;
+		max-width: 300px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+	}
+}
+
+//question
+.dwqa-pick-best-answer{
+	color: green;
+	&:after{
+		border-color: green;
 	}
 }

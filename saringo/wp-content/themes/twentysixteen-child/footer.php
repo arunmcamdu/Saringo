@@ -20,19 +20,13 @@
         <div class="col-sm-4 col-footer-1">
           <div class="wrap-col">
             <h3>About Us</h3>
-            <p>Ut volutpat consectetur aliquam. Curabitur auctor in nis ulum ornare. Sed consequat, augue condimentum fermentum gravida, metus elit vehicula dui.</p>
+            <p>Saringo website used to publish articles in following titles: Thought of the day, Meme of the day, Employment News, Sports, Events, Advertisement, Question of the day, Facebook page posts | saringo.com</p>
             
           </div>
         </div>
         <div class="col-sm-4 col-footer-2">
           <div class="wrap-col">
             <h3>Categories</h3>
-            <!-- <ul>
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Romantic</a></li>
-              <li><a href="#">Cartoon</a></li>
-              <li><a href="#">Zombies</a></li>
-            </ul> -->
             <?php if ( has_nav_menu( 'primary' ) ) : ?>
                   <?php
                 // Primary navigation menu.
@@ -49,12 +43,12 @@
             <h3>Contact</h3>
             <ul class="contact-link">
               <li>
-                <a href="mailto:arunmcamdu@gmail.com">
-                  <i class="fa fa-envelope"></i>arunmcamdu@gmail.com
+                <a href="mailto:support@saringo.com">
+                  <i class="fa fa-envelope"></i>support@saringo.com
                 </a>
               </li>
               <li>
-                <a href="tel:99999999">
+                <a href="tel:99999999" class="hide">
                   <i class="fa fa-phone"></i> 9999999999
                 </a>
               </li>

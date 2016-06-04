@@ -1,14 +1,14 @@
 $body-bg-color: #fff;
 $text-color: #3F3F3F;
 $text-bold: #5b5b5b;
-$highlight-text: #FFCD02;
+$highlight-text: #4E6CAA;
 @font-face {
 	font-family: 'Niconne';
 	src: url("../fonts/niconne.regular.ttf") format('truetype'); /* File to be stored at your site */
 }
 body {
 	background-color: $body-bg-color;	
-    font-family: "Oswald",Arial,Helvetica,sans-serif;
+    font-family: 'Roboto',sans-serif,Helvetica;
     letter-spacing: 1px;
     font-size: 15px;
 	color: $text-color;	
